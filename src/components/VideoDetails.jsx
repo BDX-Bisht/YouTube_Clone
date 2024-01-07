@@ -21,7 +21,7 @@ const VideoDetails = () => {
     fetchVideoDetails();
     fetchRelatedVideos();
     // eslint-disable-next-line
-  }, []);
+  }, [id]);
 
   const fetchVideoDetails = () => {
     setLoading(true);
